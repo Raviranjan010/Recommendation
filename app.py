@@ -5,7 +5,7 @@ from utils import get_sample_prompts, display_item_card, get_data_summary
 import time
 
 
-# Configure the page
+# Configure the page 
 st.set_page_config(
     page_title="Content Recommendation System",
     page_icon="🎬",
@@ -170,7 +170,7 @@ def main():
     # Info section
     st.sidebar.markdown("---")
     st.sidebar.info("""
-    **How it works:**
+    **Working:**
     - This system uses content-based filtering
     - It analyzes text features (title, description, tags)
     - Recommendations are based on similarity to your preferences
@@ -178,4 +178,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
