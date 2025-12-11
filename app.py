@@ -110,7 +110,7 @@ def main():
                         
                 except Exception as e:
                     st.error(f"An error occurred while generating recommendations: {str(e)}")
-                    
+                    #run button
         elif run_button and not user_input:
             st.warning("Please enter your preferences to get recommendations.")
         else:
@@ -180,3 +180,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
